@@ -35,10 +35,12 @@ Add automated tests with every non-trivial feature or bug fix. Place tests under
 Run the smallest relevant test set locally before opening a pull request.
 
 ## Commit & Pull Request Guidelines
+Use `[feature|fix|doc|chore]/<name>` branches; never push to `main`.
 There is no existing history yet, so start with Conventional Commits:
 
 - `feat(api): add match history endpoint`
 - `fix(ui): handle empty state correctly`
+- `doc(readme): markdown lint fixes`
 
 Keep commits logically small. Pull requests should explain what changed, why it changed, how it was tested, and any risks or rollback steps. Link related issues when available and include screenshots for visible UI changes.
 
